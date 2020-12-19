@@ -1,6 +1,6 @@
 body {
     background-color: rgb(246, 246, 246);
-    width: auto;
+    /* width: auto; */
     height: 100%;
     margin: 0px;
     padding: 0px;
@@ -17,7 +17,7 @@ header {
     background-size: cover;
     background-blend-mode: overlay;
     color: #fff;
-    width: auto;
+    /* width: auto; */
     height: 200px;
     display: flex;
     align-items: center;
