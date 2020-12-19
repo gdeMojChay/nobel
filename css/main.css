@@ -13,7 +13,6 @@ header {
     align-items: center;
 }
 .title {
-    /* background: #000 url('media/title.gif') no-repeat right bottom; */
     background: url('../media/title.gif'), rgba(0, 0, 0, 0.5);
     background-size: cover;
     background-blend-mode: overlay;
@@ -25,7 +24,8 @@ header {
     justify-content: center;
     text-align: center;
     clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
-    /* text-transform: uppercase; */
+    text-transform: uppercase;
+    font-family: 'JetBrains Mono', monospace;
 }
 .title:after {
     content: ' ';
