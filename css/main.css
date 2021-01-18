@@ -50,6 +50,7 @@ border: none;
 border-top: medium double #333;
 color: #333;
 text-align: center;
+height: 29px;
 }
 hr:after {
 content: "▼▼▼";
