@@ -1,5 +1,6 @@
 body {
-    cursor: pointer;
+    /* cursor: pointer; */
+    cursor: url('../media/cursor.png'), auto;
     background-color: rgb(246, 246, 246);
     height: 100%;
     margin: 0px;
@@ -59,4 +60,25 @@ top: -0.7em;
 font-size: 1.2em;
 padding: 0 0.25em;
 background: rgb(246, 246, 246);
+}
+.hr:hover::after{
+    content: attr(data-title);
+    display: inline-block;
+    position: relative;
+    color: #c0c1c2;
+    top: -0.7em;
+    font-size: 1.2em;
+    padding: 0 0.25em;
+    background: rgb(246, 246, 246);
+}
+.kartochka {
+    margin: 1%;
+    /* background-color: #8784e9; */
+    /* background: #a3b9f3;
+background: -webkit-linear-gradient(top left, #a3b9f3 0%, #3a2788 100%);
+background: -o-linear-gradient(top left, #a3b9f3 0%, #3a2788 100%);
+background: linear-gradient(to bottom right, #a3b9f3 0%, #3a2788 100%); */
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 3px 5px;
 }
