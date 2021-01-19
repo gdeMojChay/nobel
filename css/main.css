@@ -73,12 +73,14 @@ background: rgb(246, 246, 246);
 }
 .kartochka {
     margin: 1%;
-    /* background-color: #8784e9; */
-    /* background: #a3b9f3;
-background: -webkit-linear-gradient(top left, #a3b9f3 0%, #3a2788 100%);
-background: -o-linear-gradient(top left, #a3b9f3 0%, #3a2788 100%);
-background: linear-gradient(to bottom right, #a3b9f3 0%, #3a2788 100%); */
-    border: 1px solid;
+    padding: 1%;
+    /* background-color: #1a3c55; */
+    color:#c8c0c0;
+    background: #1a3c55;
+background: -webkit-linear-gradient(top left, #718fa8 0%, #467c77 100%);
+background: -o-linear-gradient(top left, #718fa8 0%, #467c77 100%);
+background: linear-gradient(to bottom right, #718fa8 0%, #467c77 100%);
+    /* border: 1px solid black; */
     border-radius: 5px;
     box-shadow: 3px 5px;
 }
