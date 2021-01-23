@@ -1,5 +1,4 @@
 body {
-    cursor: url('../media/cursor.png'), auto;
     background: #f7f4ef;
     height: 100%;
     margin: 0px;
@@ -109,11 +108,19 @@ background: #f7f4ef;
     width: 160px;
     padding: 1%;
     text-align: center;
-    border-radius: 20%/100%;
-    border: 1px solid #4b525d;
     position: absolute;
     bottom:3px;
     left:calc(50% - 80px);
+    color: #4b525d;
+    text-decoration: none;
+    border-radius: 35px;
+    border: 1px solid #4b525d;
+    box-shadow:
+      inset 0 1px 1px #4b525d,
+      inset 1px 0 1px #4b525d,
+      inset -1px 0 1px #4b525d,
+      inset 0 -1px 1px #4b525d,
+      0 0 1px rgba(0, 0, 0, 0.24);
 }
 
 footer {
