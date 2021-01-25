@@ -145,8 +145,8 @@ footer h3 {
     top: 4%;
     left: 4%;
     padding: 1%;
-    width: 90%;
-    height: 92%;
+    width: 92vw;
+    height: 92vh;
     background: -webkit-linear-gradient(top left, #eae6e3 0%, #bfbec9 100%);
     background: -o-linear-gradient(top left, #eae6e3 0%, #bfbec9 100%);
     background: linear-gradient(to bottom right, #eae6e3 0%, #bfbec9 100%);
