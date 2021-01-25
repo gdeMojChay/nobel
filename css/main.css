@@ -147,6 +147,9 @@ footer h3 {
     background: -o-linear-gradient(top left, #eae6e3 0%, #bfbec9 100%);
     background: linear-gradient(to bottom right, #eae6e3 0%, #bfbec9 100%);
 }
+.modal-header{
+    border-bottom: 1px solid #afafb5;
+}
 .close{
     cursor: pointer;
 }
