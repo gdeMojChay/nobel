@@ -147,6 +147,7 @@ footer h3 {
     background: rgba(0, 0, 0, 0.8)
 }
 .bio_body {
+    position: relative;
     top: 4%;
     left: 4%;
     padding: 1%;
