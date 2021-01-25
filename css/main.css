@@ -45,19 +45,19 @@ main {
     text-align: center;
 }
 .hr {
-padding: 0;
-border-top: 1px solid #4b525d;
-text-align: center;
+    padding: 0;
+    border-top: 1px solid #4b525d;
+    text-align: center;
 }
 .hr:after {
-content: "▼▼▼";
-display: inline-block;
-position: relative;
-color: #4b525d;
-top: -0.7em;
-font-size: 1.2em;
-padding: 0 0.25em;
-background: #f7f4ef;
+    content: "▼▼▼";
+    display: inline-block;
+    position: relative;
+    color: #4b525d;
+    top: -0.7em;
+    font-size: 1.2em;
+    padding: 0 0.25em;
+    background: #f7f4ef;
 }
 .hr:hover::after{
     content: attr(data-title);
@@ -80,11 +80,9 @@ background: #f7f4ef;
     box-shadow: 3px 5px;
     position: relative;
 }
-
 .kartochka img {
     margin-left: 2%;
     margin-top: 0.5%;
-    /* margin-right: 2%; */
     border-radius: 50%;
     object-fit: cover;
     height: 60px;
@@ -95,14 +93,10 @@ background: #f7f4ef;
     margin-left: 13%;
 }
 @media (device-width:768px) {
-    .name {
-        margin-left:20%;
-    }
+    .name {margin-left:20%;}
 }
 @media (max-device-width:385px) {
-    .name {
-        margin-left:20%;
-    }
+    .name {margin-left:20%;}
 }
 .readmore{
     width: 160px;
@@ -128,7 +122,6 @@ background: #f7f4ef;
 footer {
     background-color: rgb(2, 2, 2);
     color: rgb(2, 2, 2);
-    /* display: flex; */
     min-height: 40px;
     width: 100%;
 }
@@ -140,10 +133,29 @@ footer h3 {
     margin-left: 3%;
 }
 .row-flex{
-display: flex;
-display: -webkit-flex;
--webkit-flex-wrap: row wrap;
--ms-flex-wrap: row wrap;
-flex-wrap: row wrap;
-
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-wrap: row wrap;
+    -ms-flex-wrap: row wrap;
+    flex-wrap: row wrap;
 }
+.bio {
+    position: fixed;
+    display: none;
+    top: 4%;
+    left: 4%;
+    padding: 1%;
+    max-width: 92%;
+    height: 92%;
+    background: -webkit-linear-gradient(top left, #eae6e3 0%, #bfbec9 100%);
+    background: -o-linear-gradient(top left, #eae6e3 0%, #bfbec9 100%);
+    background: linear-gradient(to bottom right, #eae6e3 0%, #bfbec9 100%);
+    z-index: 100;
+    box-shadow: 3px 5px;
+}
+.bio_menu{
+    width: 100%;
+    height:50px;
+}
+.bio_menu img {float: right;}
+.bio_menu img:hover {cursor: pointer;}
