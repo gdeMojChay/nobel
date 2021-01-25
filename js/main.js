@@ -3,7 +3,8 @@ $( document ).ready(function(){
         $('.bio').show();
         $('#name').text($(this).parent().children('.name').children('h3').text());
         // alert('./bio.html ".' + $(this).attr('id') + '"')
-        $('.bio').children('span').load('./bio.html');
+        $('.bio').children('span').load('./bio.html #'+$(this).attr('id'));
+        alert('bio!')
     });
     $('.close').click(function(){
         $(this).parent().parent().hide()
