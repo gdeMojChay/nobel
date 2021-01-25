@@ -175,6 +175,6 @@ span {
     padding-bottom: 5px;
 }
 .span {
-    max-height: 80vh;
+    /* max-height: 80vh; */
     overflow-y: auto;
 }
