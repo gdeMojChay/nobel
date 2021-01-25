@@ -143,8 +143,6 @@ footer h3 {
     background: rgba(0,0,0,0.8)
 }
 .modal-content{
-    /* position: absolute;
-    left:2%; */
     width: 96vw;
     left:-86%;
     background: -webkit-linear-gradient(top left, #eae6e3 0%, #bfbec9 100%);
