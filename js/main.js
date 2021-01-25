@@ -5,6 +5,6 @@ $( document ).ready(function(){
         $('.bio').children('.bio_body').children('span').load('./bio.html #'+$(this).attr('id'));
     });
     $('.close').click(function(){
-        $(this).parent().parent().hide()
+        $(this).parent().parent().parent().hide()
     })
 });
