@@ -141,18 +141,12 @@ footer h3 {
 }
 .bio {
     position: fixed;
-    width: 100vw;
-    height: 100vh;
     display: none;
-    background: rgba(0, 0, 0, 0.8)
-}
-.bio_body {
-    position: relative;
     top: 4%;
     left: 4%;
     padding: 1%;
-    max-width: 92%;
-    height: 92%;
+    min-width: 92%;
+    min-height: 92%;
     background: -webkit-linear-gradient(top left, #eae6e3 0%, #bfbec9 100%);
     background: -o-linear-gradient(top left, #eae6e3 0%, #bfbec9 100%);
     background: linear-gradient(to bottom right, #eae6e3 0%, #bfbec9 100%);
@@ -178,6 +172,6 @@ span {
     padding-bottom: 5px;
 }
 .span {
-    /* max-height: 80vh; */
+    max-height: 80%;
     overflow-y: auto;
 }
