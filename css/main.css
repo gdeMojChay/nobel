@@ -143,7 +143,8 @@ footer h3 {
     position: fixed;
     display: none;
     top: 4%;
-    left: 4%;
+    left: 2%;
+    right: 2%;
     padding: 1%;
     max-width: 92%;
     height: 92%;
