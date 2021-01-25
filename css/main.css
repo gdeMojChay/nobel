@@ -171,6 +171,6 @@ span {
     height: 98%;
 }
 .span {
-    max-height: 80vh;
+    max-height: 70vh;
     overflow-y: auto;
 }
