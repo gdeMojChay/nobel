@@ -167,3 +167,6 @@ footer h3 {
     right:1%;
 }
 .bio_menu img:hover {cursor: pointer;}
+span {
+    overflow-y: scroll;
+}
