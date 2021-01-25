@@ -169,6 +169,7 @@ footer h3 {
 .bio_menu img:hover {cursor: pointer;}
 span {
     height: 98%;
+    padding-bottom: 5px;
 }
 .span {
     max-height: 70vh;
