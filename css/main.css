@@ -142,6 +142,9 @@ footer h3 {
 .bio {
     position: fixed;
     display: none;
+    background: rgba(0, 0, 0, 0.8)
+}
+.bio_body {
     top: 4%;
     left: 4%;
     padding: 1%;
