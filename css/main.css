@@ -156,13 +156,14 @@ footer h3 {
 .bio_menu{
     margin-top: 10px;
     width: 100%;
-    height: 50px;
+    height: 32px;
     position: relative;
+    text-align: center;
 }
 .bio_menu img {
     position: absolute;
     top: 50%;
-    margin-top: -25px;
+    margin-top: -16px;
     right:1%;
 }
 .bio_menu img:hover {cursor: pointer;}
